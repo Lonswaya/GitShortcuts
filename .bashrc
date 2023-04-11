@@ -12,3 +12,5 @@ alias gm='echo "git merge" && git merge'
 alias gcb='echo "git checkout -b" && git checkout -b'
 alias gbda='git branch | egrep -v "(master|\*)" | xargs git branch -D' # Remove all branches that are not currently active
 alias gpu='echo "git push --set-upstream origin $branch" && git branch --show-current | xargs git push --set-upstream origin'
+alias rev='git rev-parse --short HEAD'
+
